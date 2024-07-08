@@ -11,27 +11,23 @@
       <h1>Welcome! What is your name and how old are you?</h1>
 
       <form action="">
-        <input type="text" placeholder="Name" />
-        <input type="number" placeholder="Age" />
+        <input type="text" name="name" placeholder="Name" />
+        <input type="number" name="age" placeholder="Age" />
         <button>Add</button>
       </form>
 
       <div class="sections__body">
         <section class="sections__body-young">
           <h1>People under 25</h1>
-		  <div class="user__card">
-            <h1 id="userName">Charles Ross</h1>
-            <div class="user__card-age">
-              <p>Age</p>
-              <p id="UserAge">21</p>
-            </div>
-          </div>
+          <div class="user__card-section younger"></div>
         </section>
         <section class="sections__body-elder">
           <h1>People over 50</h1>
+          <div class="user__card-section elder"></div>
         </section>
         <section class="sections__body-other">
           <h1>Others</h1>
+          <div class="user__card-section other"></div>
         </section>
       </div>
     </div>
