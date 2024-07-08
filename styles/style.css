@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 95%;
+	margin: 30px auto;
+}
+
+input {
+	outline: none;
+	width: 250px;
+	padding: 10px 20px;
+	font-weight: 500;
+	color: #000;
+	border: 1px solid #CDCDCD;
+}
+
+form {
+	margin: 30px 0;
+}
+
+button {
+	padding: 11px 70px;
+	border: none;
+	color: #fff;
+	background: #000;
+}
+
+.sections__body {
+	display: flex;
+	justify-content: space-between;
+}
+
+section {
+	width: 30%;
+}
+
+section h1 {
+	margin: 0 0 20px 0;
+}
+
+.sections__body-elder {
+	width: 33%;
+	padding: 0 30px;
+	border-left: 3px solid #CDCDCD ;
+	border-right: 3px solid #CDCDCD;
+}
+
+.user__card {
+	width: 100%;
+	border: 2px solid #CDCDCD;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+
+.user__card-age {
+	padding: 5px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #000;
+	font-weight: 500;
+	background: #CDCDCD;
+}

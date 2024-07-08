@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome! What is your name and how old are you?</h1>
+
+      <form action="">
+        <input type="text" placeholder="Name" />
+        <input type="number" placeholder="Age" />
+        <button>Add</button>
+      </form>
+
+      <div class="sections__body">
+        <section class="sections__body-young">
+          <h1>People under 25</h1>
+		  <div class="user__card">
+            <h1 id="userName">Charles Ross</h1>
+            <div class="user__card-age">
+              <p>Age</p>
+              <p id="UserAge">21</p>
+            </div>
+          </div>
+        </section>
+        <section class="sections__body-elder">
+          <h1>People over 50</h1>
+        </section>
+        <section class="sections__body-other">
+          <h1>Others</h1>
+        </section>
+      </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
